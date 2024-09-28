@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+body{
+    background-image: linear-gradient(to right, #EA1744, #EF271B, #DD4B1A, #F56416, #E28413);
+   
+   
+}
+
+h1{
+    font-size: 3.125em;
+    color: #14110F;
+    text-decoration: underline;
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    
+}
+
+h2{
+    font-size: 1.6em;
+    font-family: "Abril Fatface", serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #14110F;
+    text-align: justify;
+}
+main{
+    background-color: white;
+    width: 990px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 15px black;
+    margin: auto;
+    
+}
+img{
+    border-radius: 10px;
+    margin: auto;
+    
+    
+} 
+a{
+    color: #EA1744;
+}
+mark{
+    background-color: #ea17453f;
+}
+iframe{
+    border-radius: 10px;
+}
+div{
+    background-image: linear-gradient(to left, #EA1744, #EF271B, #DD4B1A, #F56416, #E28413);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.582);
+    margin: auto;
+   
+}
+#principal{
+    background-image: linear-gradient(to left, #EA1744, #EF271B, #DD4B1A, #F56416, #E28413);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.582);
+    margin: auto;
+}
+.subtitulo{
+    text-decoration: underline;
+}
+
+.robson{
+    background-image: linear-gradient(to right, #EA1744, #EF271B, #DD4B1A, #F56416, #E28413);
+    font-family: "Nerko One", cursive;
+    border-radius: 10px;
+    padding: 2.5px;
+    text-align: center;
+}
+
+
+#botao > #menu{
+         display: none;
+}
+#botao:hover > #menu{
+    display: block;
+}
+#botao{
+    background-color: white;
+    width: 950px;
+    margin: auto;
+}
+#menu{
+    background-color: white;
+    width: 950px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 15px black;
+    margin: auto;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+#g1{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#g2{
+    background-color: white;
+    width: 950px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 15px black;
+    margin: auto;
+}
+img{ 
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkgray;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
