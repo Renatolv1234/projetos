@@ -126,6 +126,20 @@ main img{
     border:solid 8px #38369A; 
     margin: auto 50px auto 50px; 
 }
+.video{
+    background-color: var(--cor3);
+    margin: 0 -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 footer{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
     padding: 1px;
