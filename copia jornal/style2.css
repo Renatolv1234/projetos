@@ -30,8 +30,11 @@ nav > a{
 }
 nav > a:hover{
     text-decoration: underline;
-    background-color: rgba(255, 217, 0, 0.418);
-    
+    background-color: rgb(78, 82, 80);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: black;
 }
 nav > a:visited{
     color: red;
