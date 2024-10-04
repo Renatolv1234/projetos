@@ -4,11 +4,11 @@
 
 :root{
     --cor0: #c5ebd6;
-    --cor1: #C6EBBE;
-    --cor2:#A9DBB8;
-    --cor3:#7CA5B8;
-    --cor4:#38369A;
-    --cor5:#020887;
+    --cor1: #F4F4F9;
+    --cor2:#B8DBD9;
+    --cor3:#586F7C;
+    --cor4:#2F4550;
+    --cor5:#080B0D;
 
     --font-padrão: Arial, Helvetica, sans-serif;
     --font-destaque: "Sofadi One", system-ui;
@@ -23,7 +23,7 @@ body{
     content: '\00A0\1F517';
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
     font-size: 1.5em;
     min-height: 150px;
     text-align: center;
@@ -39,7 +39,7 @@ header p{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
 }
 nav{
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     padding: 20px;
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.363);
 }
@@ -58,7 +58,7 @@ nav a:hover{
     transition-duration: .3s;
 }
 main {
-    background-color: #7CA5B8;
+    background-color: var(--cor0);
     padding: 20px;
     min-width: 300px;
     max-width: 1000px;
@@ -92,7 +92,7 @@ main .social{
     background-color: #A9DBB8;
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: solid 8px blue;
+    border: solid 8px var(--cor3);
     padding: 10px;
     font-size: 2em;
     color: #020887;
@@ -105,9 +105,9 @@ main .social{
 }
 main .social:hover{
     text-decoration: underline;
-    background-color: var(--cor4);
-    color: var(--cor2);
-    border: solid 8px red;
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border: solid 8px var(--cor5);
     
 }
 main article{
@@ -119,7 +119,7 @@ main .cavalo{
     display: block;
     margin: auto;
     border-radius: 120px;
-    border:solid 8px #38369A;
+    border:solid 8px var(--cor5);
 }
 main .youtube{ 
     margin: auto 50px auto 50px; 
@@ -139,7 +139,7 @@ main .youtube{
     height: 90%;
 }
 footer{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
     padding: 1px;
     text-align: center;
     color: black;
