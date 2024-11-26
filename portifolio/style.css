@@ -44,13 +44,17 @@
 }
 
 
-.conteudo img{
-    border-radius: 20%;
-    padding-top: 2px;
-    
+.contato h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.contato p{
+    text-align: center;
 }
 
 .inicio h1 {
+    font-size: 3em;
     text-align: center;
 }
 .inicio p{
@@ -58,6 +62,10 @@
 }
 .mim{
     text-align: center;
+}
+
+.mim img{
+    border-radius: 60%;
 }
 
 .projetos{
@@ -80,4 +88,35 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: rgba(199, 199, 199, 0.719);
+}
+
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;  
+
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:   
+ 4px;
+    cursor: pointer;
 }
