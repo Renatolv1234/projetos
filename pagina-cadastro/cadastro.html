@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="titulo">
+        <h1>Faça Seu Cadastro Aqui</h1>
+    </header>
+    <main >
+        <form action="" method="post"
+        autocomplete="on" >
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome completo" autocomplete="name" maxlength="30" class="nome">
+        </p>
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="text" name="email" id="iemail" required placeholder=".com" autocomplete="email" maxlength="50" class="email">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required placeholder="Nova senha" autocomplete="new-password" class="senha"> 
+        </p>
+        <p>
+            <input type="submit" value="Enviar" class="enviar">
+            <input type="reset" value="Limpar" class="limpar">
+        </p>
+        </form>
+    </main>
+    
+</body>
+</html>

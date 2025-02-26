@@ -1,0 +1,48 @@
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-image: url('data:image/jpeg;base64,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');
+}
+.titulo{
+    width: 100vw;
+    height: 100px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.titulo h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+   
+}
+main{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: justify;
+    background-color: sandybrown;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+main form{
+    padding: 10px;
+    margin: 15px;
+}
+.nome, .email, .senha {
+    border-radius: 10px;
+}
+.enviar, .limpar{
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    font-weight: bold;
+}
+label p {
+    font-family: 'Times New Roman', Times, serif;
+}
