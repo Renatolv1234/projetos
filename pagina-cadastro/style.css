@@ -6,20 +6,29 @@ html, body{
     height: 100%;
 }
 body{
-    background-image: url('https://i.pinimg.com/originals/52/97/43/5297437d4774c4411088095d09406c86.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right bottom, #F9CFF2, #EFE9e7);
+    
+}
+.logo{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    background-image: url('imagens/RK-copia.png');
+    border: 2px solid white;
 }
 .titulo{
-    width: 100vw;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+    width: 668px;
+    margin: auto;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
     margin-bottom: 10px;
-    background-color:  #68365848;
+    
 }
 .titulo h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
     font-size: 3em;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
 }
@@ -28,15 +37,17 @@ main{
     height: 350px;
     margin: auto;
     text-align: justify;
-    background-color:  #6727408e;
-    
+    border: 2px solid white;
     border-radius: 10px;
 }
 main h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
     font-size: 2.5em;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
 }
 .formu input{
    padding-right: 40px;
@@ -49,6 +60,8 @@ main form{
 main label{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .nome, .email, .senha {
@@ -67,6 +80,7 @@ main label{
 }
 .enviar:hover, .limpar:hover{
     background-color: rgba(172, 255, 47, 0.603);
+    border: 1px solid gray;
 }
 label{
     font-weight: lighter;
