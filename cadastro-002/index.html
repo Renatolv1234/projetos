@@ -17,27 +17,43 @@
             <p>
                 <label for="inome">Nome:</label>
                 <input type="text" name="nome" id="inome" required placeholder="Nome Completo"
-                minlength="5" maxlength="20" autocomplete="name">
+                minlength="5" maxlength="30" autocomplete="name">
             </p>
             <p>
                 <label for="iemail">Email:</label>
-                <input type="email" name="email"  id="iemail" required autocomplete="email" placeholder="@gmail.com">
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="@gmail.com">
             </p>
             <p>
                 <label for="itel">Telefone:</label>
-                <input type="tel" name="tel"     id="itel" required autocomplete="tel" placeholder="(xx)xxxx-xxxx">
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" placeholder="(xx)xxxx-xxxx">
             </p>
             <p>
                 <label for="icpf">CPF:</label>
                 <input type="" name="cpf" id="icpf" required autocomplete="number" placeholder="xxx.xxx.xxx-xx" >
             </p>
            </fieldset>
-           <fieldset>
-            <legend>Dados Escolares</legend>
+        <fieldset>
+            <legend>Formação</legend>
+
             <p>
-                <label for="iturma">Turma</label>
-                <input type="text" name="turma" id="iturma" required >
+                <input type="radio" name="es" id="iesfd" value="EF"><label for="iesfd">Ensino Fundamental</label><br>
+                
+                <input type="radio" name="es" id="iesmd" value="EM"><label for="iesmd">Ensino Médio</label> <br>
+
+
+                <input type="radio" name="es" id="iesav" value="AV"><label for="iesav">Ensino Avançado</label>
             </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Materias</legend>
+            <input type="checkbox" name="chu" id="ichu"><label for="ichu">Ciencias Humanas</label><br>
+
+            <input type="checkbox" name="cna" id="icna"><label for="icna">Ciencias da Natureza</label><br>
+
+            <input type="checkbox" name="mat" id="imat"><label for="imat">Matemática</label><br>
+
+            <input type="checkbox" name="ling" id="iling"><label for="iling">Linguagens</label><br>
         </fieldset>
         <p>
             <input type="submit" value="Enviar">
