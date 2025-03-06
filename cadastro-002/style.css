@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: gray;    
+    background-color: rgba(128, 128, 128, 0.425);    
 }
 header h1{
     text-align: center;
