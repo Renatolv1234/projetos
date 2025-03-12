@@ -10,6 +10,7 @@ body{
     
 }
 .logo{
+    position: absolute;
     background-color: white;
     width: 50px;
     height: 50px;
@@ -17,13 +18,15 @@ body{
     border: 2px solid white;
 }
 .titulo{
-    width: 668px;
+    max-width: 668px;
+    min-width: 200px;
+    
     margin: auto;
     margin-top: 10px;
     border-bottom: 2px solid white;
     border-top: 2px solid white;
     margin-bottom: 10px;
-    
+   position: relative;
 }
 .titulo h1{
     text-align: center;
@@ -33,7 +36,9 @@ body{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
 }
 main{
-    width: 400px;
+    max-width: 400px;
+    min-width: 200px;
+   
     height: 350px;
     margin: auto;
     text-align: justify;
@@ -48,12 +53,13 @@ main h1{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
     border-bottom: 1px solid white;
     padding-bottom: 20px;
+    margin: 10px;
 }
 .formu input{
    padding-right: 40px;
 }
 main form{
-    padding: 30px;
+    padding-left: 30px;
     margin: auto;
     
 }
@@ -65,7 +71,7 @@ main label{
 }
 
 .nome, .email, .senha {
-    padding: 8px;
+    padding: 6px;
     border-radius: 5px;
     border: 1px solid grey;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.541);
@@ -75,11 +81,11 @@ main label{
     border: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.541);
-    background-color: #4CAF50;
+    background-color: plum;
     color: white;
 }
 .enviar:hover, .limpar:hover{
-    background-color: rgba(172, 255, 47, 0.603);
+    background-color: rgb(218, 108, 218);
     border: 1px solid gray;
 }
 label{
